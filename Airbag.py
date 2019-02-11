@@ -1,2 +1,5 @@
-import adxl355
+import adxl355 as acelerometro
+
+print(dir (acelerometro))
+
 
