@@ -25,4 +25,4 @@ while True:
     else:
         gpio.output(False)
 
-#xd
+#xdxd
