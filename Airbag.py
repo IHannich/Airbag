@@ -20,7 +20,7 @@ print(dimension)
 while True:
     dimension = device.get.dimension()
     sleep(1)
-    if dimension x >130°:
+    if dimension x >130° and dimension y >130°:
         gpio.output(led1,True)
     else:
         gpio.output(False)
