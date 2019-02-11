@@ -14,11 +14,11 @@ sys.path.append('../lib/')
 from adxl355 import ADXL355  # pylint: disable=wrong-import-position
 
 device = ADXL355()           # pylint: disable=invalid-name
-dimension = device.get_dimension()     # pylint: disable=invalid-name
-print(dimension) 
+axes = device.get_axes()     # pylint: disable=invalid-name
+print(get.axes) 
 
 while True:
-    dimension = device.get.dimension()
+    axes = device.get.axes()
     sleep(1)
     if dimension x >130° and dimension y >130°:
         gpio.output(led1,True)
